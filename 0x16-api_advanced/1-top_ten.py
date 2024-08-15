@@ -14,7 +14,7 @@ def top_ten(subreddit):
     - If the subreddit is invalid, print None.
     """
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    headers = {"User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/yourusername)"}
+    headers = {"User-Agent": "linux:0x16.api.advanced:v1.0.0 (by /u/yosefbenti)"}
     params = {"limit": 10}
     
     try:
